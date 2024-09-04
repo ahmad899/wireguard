@@ -1,0 +1,5 @@
+Host your-host
+        HostName your-host
+        StrictHostKeyChecking no
+        User your-user
+        IdentityFile 
