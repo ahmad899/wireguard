@@ -7,4 +7,4 @@ RUN set -eux; \
 COPY vulcan-bastion-host.pem /root/.ssh/.keys/vulcan-bastion-host.pem
 COPY config /root/.ssh/config
 EXPOSE 443
-CMD ["dumb-init", "ssh", "-4", "-NL", "10.8.1.3:443:3486D1560C6A8FDF52ED2E8F98B6EF25.gr7.us-east-1.eks.amazonaws.com:443", "vulcan-dev-baston"]
+CMD ["dumb-init", "ssh", "-4", "-NL", "10.8.1.3:443::address:443", "your-host"]
